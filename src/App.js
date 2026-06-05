@@ -2,16 +2,16 @@
 import './App.css';
 import Navbar from "C:/Users/prita/OneDrive/Desktop/Pritam Personal/React/my-app/src/components/Navbar.js";
 import TextForm from "C:/Users/prita/OneDrive/Desktop/Pritam Personal/React/my-app/src/components/TextForm.js";
-import About from "C:/Users/prita/OneDrive/Desktop/Pritam Personal/React/my-app/src/components/About.js"
+// import About from "C:/Users/prita/OneDrive/Desktop/Pritam Personal/React/my-app/src/components/About.js"
 import { useState } from 'react';
 import Alert from "C:/Users/prita/OneDrive/Desktop/Pritam Personal/React/my-app/src/components/Alert.js";
 
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
+// import React from "react";
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route
+// } from "react-router-dom";
 
 
 function App() {
@@ -51,30 +51,30 @@ function App() {
   return (
 <>
 
-<Router>
+{/* <Router> */}
 <Navbar  title="TextUtils" aboutText="About TextUtils" mode={mode} red={red} toggleMode={toggleMode} redMode={redMode}/>
 <Alert alert={alert}/>
 <div className="container my-3">
 
-<Routes>
+{/* <Routes> */}
   
 
-  <Route
+  {/* <Route
     exact path="/"
-    element={
+    element={ */}
       <TextForm
         showAlert={showAlert}
         heading="Enter the text to analyze"
         mode={mode}
         red={red}
       />
-    }
-  />
-  <Route exact path="/about" element={<About />} />
+    {/* }
+  /> */}
+  {/* <Route exact path="/about" element={<About />} />
 </Routes>
-   
+    */}
 </div>
-</Router>
+{/* </Router> */}
 
  
 
