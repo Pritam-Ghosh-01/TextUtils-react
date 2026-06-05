@@ -1,10 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
-import Navbar from "C:/Users/prita/OneDrive/Desktop/Pritam Personal/React/my-app/src/components/Navbar.js";
-import TextForm from "C:/Users/prita/OneDrive/Desktop/Pritam Personal/React/my-app/src/components/TextForm.js";
+import Navbar from "./components/Navbar.js";
+import TextForm from "./components/TextForm.js";
+import Alert from "./components/Alert.js";
 // import About from "C:/Users/prita/OneDrive/Desktop/Pritam Personal/React/my-app/src/components/About.js"
 import { useState } from 'react';
-import Alert from "C:/Users/prita/OneDrive/Desktop/Pritam Personal/React/my-app/src/components/Alert.js";
+
 
 // import React from "react";
 // import {
